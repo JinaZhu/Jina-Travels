@@ -55,6 +55,7 @@ button:hover {
   background: #22364f;
   font-size: 2.6rem;
 }
+
 /* nav section with hero*/
 .main-head {
   background: #131c27;
@@ -187,6 +188,7 @@ nav ul {
 .card h4,
 .card p {
   padding: 1rem;
+  line-height: 2;
 }
 
 .cards {
@@ -271,6 +273,12 @@ footer ul {
   flex: 1 1 40rem;
   justify-content: space-around;
   align-items: center;
+}
+
+button:focus {
+  background: #4c6e97;
+  outline-style: solid;
+  outline-color: white;
 }
 
 @media screen and (max-width: 932px) {
